@@ -1,0 +1,12 @@
+//
+// Prefix header for all source files of the 'ClientCertTest' target in the 'ClientCertTest' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+    #import <Security/Security.h>
+    #import <CoreFoundation/CoreFoundation.h>
+    #import <dispatch/dispatch.h>
+    #import <CommonCrypto/CommonDigest.h>
+#endif
